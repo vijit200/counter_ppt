@@ -1,0 +1,46 @@
+.background{
+  width: 100vw ;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.innerContainer{
+  width: 40vw;
+  height: 60vh;
+  border-radius: 10px;
+  background-color: #FF4957;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.count{
+  color: white;
+  font-size: 40px;
+}
+
+.logic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap:5vw;
+
+}
+
+.btn{
+  background-color: white;
+  color: black;
+  padding: 15px;
+  text-align: center;
+  font-weight: 600;
+  
+}
+
+.btn:hover{
+  cursor: pointer;
+}
